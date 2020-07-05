@@ -1,4 +1,4 @@
-llet ages_List = [13, 11, 23, 23, 23, 55, 23, 55, 3, 77, 3, 4, 8, 101, 54, 99, 99];
+let ages_List = [13, 11, 23, 23, 23, 55, 23, 55, 3, 77, 3, 4, 8, 101, 54];
 let two_Oldest = [];
 
 function max_Ages(any_Array) {
