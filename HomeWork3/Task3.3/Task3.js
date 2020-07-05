@@ -1,12 +1,15 @@
-let text = "bitcoin take over the";
+let text = "df take bitcoin over f the df";
 let count = 0;
+let min=2;
 for (let char of text) {
-        if( char == " "){
-            count=0;
-                 continue;
-    }
-    count++;    
-    console.log(count);
-    // alert(char); // H,e,l,l,o (char — сначала "H", потом "e", потом "l" и т. д.)
-  }
-//console.log(count);
+          if( char == " "){
+            if (min>count){
+            min = count;}
+            count=0;         
+            continue;      
+          }   
+       // console.log(min);  
+        count++;       
+}
+console.log(min);  
+ 
