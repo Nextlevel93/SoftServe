@@ -1,6 +1,6 @@
-let text = "df take bitcoin over f the df";
+let text = "df take bitcoin over fdf the dfd";
 let count = 0;
-let min=2;
+let min=10;
 for (let char of text) {
           if( char == " "){
             if (min>count){
