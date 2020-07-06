@@ -1,4 +1,4 @@
-function correctLine(){
+function correctLine(p){
    let regexp = /\d/;
   let i = p.split(" ");
   let new_Mass = [];
