@@ -4,7 +4,7 @@ function correctLine(p){
   let new_Mass = [];
   let x;
   for( let y = 0; y < i.length; y++){
-   let x = i[y].match(regexp);
+    x = i[y].match(regexp);
    new_Mass[x] = i[y];
   }
   new_Mass.shift();
