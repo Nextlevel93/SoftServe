@@ -1,4 +1,4 @@
-let DNA = "ATTGC";
+let DNA = "ATTDGC";
 
 function reject (){
   let new_DNA=[];
@@ -17,7 +17,7 @@ function reject (){
        new_DNA.push("C");
     }
   }
-   console.log(new_DNA);
+   return new_DNA;
 }
 
-reject(DNA);
+console.log(reject(DNA));
