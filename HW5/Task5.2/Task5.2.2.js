@@ -1,4 +1,4 @@
-const  str = "3f-3-%#%@%f&444gDFweger";
+const  str = "3f-3-%#%@%f&444g       выывпывп    DFweger";
 let search_Numbers = /\d/;
 let serach_Letters = /\w/;
 
@@ -10,6 +10,6 @@ function A(){
       str[i].match(search_Numbers)?numbers++:
       str[i].match(serach_Letters)?letters++:symbols++;
     }  
-  return (`${numbers} ${letters} ${symbols}`);
+  return (`В строке цифр: ${numbers}, букв: ${letters}, символов: ${symbols}`);
 }
 console.log(A(str));
