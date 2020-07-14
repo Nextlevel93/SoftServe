@@ -1,4 +1,4 @@
-const  str = "I`m 27 yoers Old";
+const  str = "I`m 27 years Old";
 let search_Numbers = /\d/;
 let serach_Letters = /\w/;
 
