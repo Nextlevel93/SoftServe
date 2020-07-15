@@ -1,6 +1,6 @@
 TABLE {
     
-       border-collapse: collapse; /* Убираем двойные линии между ячейками */
+       border-collapse: collapse; /
    }
    TD, TH {
     
@@ -8,8 +8,8 @@ TABLE {
     min-height: 60px; 
 	width: 60px;
 	height: 60px;
-    padding: 3px; /* Поля вокруг содержимого таблицы */
-    border: 1px solid black; /* Параметры рамки */
+    padding: 3px; 
+    border: 1px solid black; 
    }
   
    
