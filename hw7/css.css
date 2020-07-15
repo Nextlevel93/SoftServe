@@ -1,0 +1,21 @@
+.chess {
+	
+	border-collapse: wight;
+	margin: 0 auto;
+}
+.chess td {
+	width: 1223px;
+	height: 122px;
+	border: 0px solid #ddd;
+	text-align: center;
+	
+	color: #666;
+}		
+
+.chess tr:nth-child(odd) td:nth-child(odd) {
+	background: Orange;
+}	
+.chess tr:nth-child(even) td:nth-child(even) {
+	background: Orange;
+}
+
