@@ -32,16 +32,10 @@ function getrandomcell2(){
   let  randomNum = Math.floor(Math.random() * length);
   let i =final.indexOf(randomNum);
   final.splice(i,1);
-    console.log(final[randomNum],i,final.length);
+    //console.log(final[randomNum],i,final.length);
    return final[randomNum];
 }
 
-
-//console.log(getrandomcell2());
-
-/*function getRandomcell() {
-  return Math.floor(Math.random() *25);;
-}*/
 
 setInterval(function changeColor () {
        firsttd[getrandomcell2()].style.background = getRandomColor(); 
