@@ -1,0 +1,11 @@
+#frog {
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background: yellow;
+}
+
+#myCanvas{
+		float: right;
+	position: relative;
+}

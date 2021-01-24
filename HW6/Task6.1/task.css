@@ -1,15 +1,30 @@
-TABLE {
-    
-       border-collapse: collapse; 
-   }
-   TD, TH {
-        min-width: 60px; 
-    min-height: 60px; 
-	width: 60px;
-	height: 60px;
-    padding: 3px; 
-    border: 1px solid black; 
-   }
+* {
+    margin: 0;
+    padding: 0;
+    background-color:solid 1px black;;
+}
 
-  
-   
+.container {
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    display: grid;
+    border: solid 1px black;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0;
+    
+}
+.endMenu{
+    display: none;
+    padding: 10px;
+    border: black 1px solid;
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 80px);
+}
+.tile{
+ 
+    width: 60px;
+    height: 60px;
+}
